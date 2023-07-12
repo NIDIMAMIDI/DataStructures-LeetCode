@@ -119,7 +119,7 @@ public class linkedlistimplementation {
              System.out.println("Linked List is empty");
         }else{
             Node current = this.head;
-            System.out.print("The element  in the LinkedList are :");
+            System.out.println("The element  in the LinkedList are :");
             for(int i = 0; i < size; i++){
                 System.out.println(current.item+" ");
                 current = current.next;
