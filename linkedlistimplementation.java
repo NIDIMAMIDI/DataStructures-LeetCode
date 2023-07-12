@@ -34,7 +34,7 @@ public class linkedlistimplementation {
 		node.item=i;
 		node.next=this.head;
 		this.head=node;
-		
+        this.size += 1;
 	}
     public void addAtMiddle(String i,int pos)
 	{
